@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+
+  <title>E-commerce website focused on javascript</title>
+</head>
+
+<body>
+  <!----================== Navbar section =====================---->
+  <nav class="navbar bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <div class=" container-fluid">
+      <a class="navbar-brand">Footera <span> Unleash your Confidence!</span></a>
+      
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-dark" data-bs-theme="dark">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="container">
+        <div class="row">
+
+          <ul class="nav nav-pills  mx-auto">
+
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+
+
+            <a class="nav-link" href="sneakers.html">Sneakers</a>
+
+            <a class="nav-link" href="heels.html">Heels</a>
+
+            <a class="nav-link" href="sandals.html">Sandals</a>
+
+            <a class="nav-link" href="flat.html">Flat</a>
+
+            <a class="nav-link" href="fancy.html">Runners</a>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!----==================  Joggers Sliders (Carousel) =====================---->
+  <section id="index">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container-lg d-flex text-center">
+            <div class="row">
+
+              <img src="images/heels1.jpg" class="sliderImage" class="d-block w-100" alt="heels">
+            </div>
+
+            <div class="c-text mx-auto">
+              <h1 class="sliderTitle">Elevate Your Wardrobe: </h1>
+              <h2>  Discover Our Stunning Collection of  <br> High-Heeled Shoes for Every </h2>
+              <h2 class="siderPrice">Rs. 4500</h2>
+              <a href="#product">
+              <button class="btn btn-outline-success btn-lg">Shop Now</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container-lg d-flex text-center">
+            <div class="row">
+
+              <img src="images/sneaker3.jpg" class="sliderImage" class="d-block w-100" alt="sneakers">
+            </div>
+
+            <div class="c-text mx-auto">
+              <h1 class="sliderTitle">Step into Style: </h1>
+              <h2>Exclusive Footwear Collection for the <br>Modern Sneaker Enthusiast</h2>
+              <h2 class="siderPrice">Rs. 4000</h2>
+              <a href="#product">
+              <button class="btn btn-outline-success btn-lg">Shop Now</button>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container-lg d-flex text-center">
+            <div class="row">
+
+              <img src="images/fancy1.jpg" class="sliderImage" class="d-block w-100" alt="sandals">
+            </div>
+
+            <div class="c-text mx-auto">
+              <h1 class="sliderTitle">Summer Bliss: </h1>
+              <h2> Explore Our Chic Collection of <br> Stylish Sandals for Every Occasion</h2>
+              <h2 class="siderPrice">Rs. 3500</h2>
+              <a href="#product">
+                <button class="btn btn-outline-success btn-lg">Shop Now</button>
+              </a>
+              </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container-lg d-flex text-center">
+            <div class="row">
+
+              <img src="images/flat3.jpg" class="sliderImage" class="d-block w-100" alt="flat shoes">
+            </div>
+
+            <div class="c-text mx-auto">
+              <h1 class="sliderTitle">Effortless Elegance:  </h1>
+              <h2> Discover the Chic Collection of  <br> Flat Shoes for Every Day use</h2>
+              <h2 class="siderPrice">Rs. 3000</h2>
+              <a href="#product">
+              <button class="btn btn-outline-success btn-lg">Shop Now</button>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container-lg d-flex text-center">
+            <div class="row">
+
+              <img src="images/canvas3.jpg" class="sliderImage" class="d-block w-100" alt="canvas shoes">
+            </div>
+
+            <div class="c-text mx-auto">
+              <h1 class="sliderTitle">Canvas Classic: </h1>
+              <h2> Step into Style with our <br>Trendy and Timeless Canvas Shoes</h2>
+              <h2 class="siderPrice">Rs. 3000</h2>
+              <a href="#product">
+              <button class="btn btn-outline-success btn-lg">Shop Now</button>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container-lg d-flex text-center">
+            <div class="row">
+
+              <img src="images/runners1-new-balance.jpg" class="sliderImage" class="d-block w-100" alt="running shoes">
+            </div>
+        <div class="c-text mx-auto">
+          <h1 class="sliderTitle">Stride in Style:  </h1>
+          <h2> Empowering Women's <br> Branded Running Shoes <br> for Optimal Performance</h2>
+          <h2 class="siderPrice">Rs. 5000</h2>
+          <a href="#product">
+          <button class="btn btn-outline-success btn-lg">Shop Now</button>
+        </a>
+        </div>
+      </div>
+    </div>
+
+      </div>
+  </section>
+
+
+  <!----==================  Features =====================---->
+
+  <div class="container-fluid-lg">
+    <div class="row-lg col-12">
+      <div class="features">
+
+        <div>
+          <img src="./images/100-Money-Back-Guarantee-Transparent.png" class="img-fluid" alt="Money Back guarantee">
+          <div class="feature"><h5 class="featureTitle">30 days return</h5>
+          <p class="featureDescription">30 days return policy with money back guarantee in 14 days</p>
+        </div>
+        </div>
+        <div>
+          <img src="./images/free shipping.png" class="img-fluid" alt="Free Delivery">
+          <h5 class="featureTitle">Free Shipping</h5>
+          <p class="featureDescription">Free shipping in all EU countries over £ 100</p>
+        </div>
+        <div>
+          <img src="./images/gift-card.jpg" class="img-fluid" alt="Gift Cards">
+          <h5 class="featureTitle">Gift Card</h5>
+          <p class="featureDescription">Gift cards and coupon code are also available</p>
+        </div>
+        <div>
+          <img src="./images/contact-us-icons.png" class="img-fluid" alt="Contact us">
+          <h5 class="featureTitle">Contact Us</h5>
+          <p class="featureDescription">Feel free to conact us any time</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----==================  Product =====================---->
+<section id="product">
+ <div class="container-fluid-lg"> 
+    <div class="row-lg col-12"> 
+
+      <div class="product" id="product">
+        <img src="images/heels1.jpg" alt="" class="productImg col-6">
+        <div class="productDetails col-6">
+            <h1 class="productTitle">Elevate Your Style with <br>Elegant Heels</h1>
+            <h2 class="productPrice">Rs. 4500</h2>
+            <p class="productDescription">Step into sophistication with our exquisite collection 
+              of heels. Designed to make a statement, our high-heeled shoes effortlessly elevate 
+              your style for any occasion. With impeccable craftsmanship and attention to detail, 
+              these heels offer a perfect blend of comfort and glamour. Whether you're attending a 
+              special event or want to add a touch of elegance to your everyday outfits, our heels 
+              are the perfect choice. Slip into a pair and experience the allure and confidence that 
+              comes with wearing stunning high heels.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">37</div>
+                <div class="size">38</div>
+                <div class="size">39</div>
+                <div class="size">40</div>
+            </div>
+            <div><button type="button" class="btn btn-outline-success productButton">Shop Now!</button></div>
+        </div>
+     </div>
+  </div>
+</section>
+
+  <!----==================  Add JavaScript =====================---->
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+</body>
+
+</html>
